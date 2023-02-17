@@ -9,7 +9,7 @@ agent any
     }
     stage('Test'){
       steps{
-        sh './a.out'
+        sh './a.exe'
       }
     }
   }
